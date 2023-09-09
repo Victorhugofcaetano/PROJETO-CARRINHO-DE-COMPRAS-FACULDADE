@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    <!---Componentes da página-->
+    
     <head>
         <title>Lojinha</title>
         <meta charset="UTF-8">
@@ -7,49 +9,22 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="CSS/style.css">
+    
     </head>
+    
+    <!--Corpo da página-->
+
     <body>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid ">
-              <a class="navbar-brand" href="#"><i style="color: red;" class="bi bi-cart-check"></i></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+        <!--Div que centraliza no bootstrap-->
 
         <div class="container">
 
-        <h1>Carrinho da Unidade</h1>
+        <h1><i id="logo" class="bi bi-cart-check-fill"></i>Carrinho da Unidade</h1>
+
+        <!--Tabela-->
 
         <table class="table table-hover">
 
@@ -69,8 +44,8 @@
                     </td>
                     <td>
                         <div>Iphone XR 128 Gb</div>
-                        <div>Código: 000102</div>
-                        <div>Cor: Vermelho</div>
+                        <div><span class="produto-item">Código:</span> 000102</div>
+                        <div><span class="produto-item">Cor:</span> Vermelho</div>
                     </td>
                     <td>1000</td>
                     <td>
@@ -89,8 +64,8 @@
                 </td>
                 <td>
                     <div>MacBook 12 Pro</div>
-                    <div>Código:000103</div>
-                    <div>Cor:Prata</div>
+                    <div><span class="produto-item">Código:</span>000103</div>
+                    <div><span class="produto-item">Cor:</span>Prata</div>
                 </td>
                 <td>1000</td>
                 <td> 
@@ -108,8 +83,8 @@
             </td>
             <td>
                 <div>Tv 4K Samsung 120Hz's</div>
-                <div>Código: 000104</div>
-                <div>Cor: Prata</div>
+                <div><div><span class="produto-item">Código:</span> 000104</div>
+                <div><div><span class="produto-item">Cor:</span> Prata</div>
             </td>
             <td>1000</td>
             <td> 
